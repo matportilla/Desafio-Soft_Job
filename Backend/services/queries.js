@@ -5,7 +5,7 @@ const bcrypt = require('bcryptjs');
 const pool = new Pool({
     host: 'localhost',
     user: 'postgres',
-    password: 'i0g4m0a1',
+    password: 'postgres',
     database: 'softjobs',
     port: '5432',
     allowExitOnIdle: true
